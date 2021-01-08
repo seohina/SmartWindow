@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#B4D8E7"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/loginbg">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/textview"
+            android:layout_width="400dp"
+            android:layout_height="70dp"
+            android:fontFamily="@font/yachebol"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:background="@drawable/loginbg"
+            android:gravity="center_horizontal|center_vertical"
+            />
+
+        <ImageButton
+            android:background="#00000000"
+            android:layout_width="70dp"
+            android:layout_height="150dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/imagebutton"
+            android:src="@drawable/placeholder"
+            android:layout_marginLeft="20dp"
+            >
+
+        </ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bk1"
+        android:orientation="vertical"
+        android:layout_width="500dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sunsun"
+            android:layout_marginTop="60dp"
+            android:id="@+id/weather"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:visibility="invisible"
+            ></ImageView>
+        <TextView
+            android:layout_marginTop="15dp"
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yachebol"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="25dp"/>
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yachebol"
+            android:textColor="#000000"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="25dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bk2"
+        android:orientation="horizontal"
+        android:layout_width="500dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|center_vertical">
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/textView_main_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/yachebol"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="25dp"/>
+
+</LinearLayout>
+    </LinearLayout>

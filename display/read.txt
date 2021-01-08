@@ -1,0 +1,5 @@
+module install
+
+https://github.com/fruestueck/MMM-WeatherDependentClothes
+
+https://github.com/CFenner/MMM-AirQuality

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "858976309361",
+    "firebase_url": "https://fcm-example-33b06.firebaseio.com",
+    "project_id": "fcm-example-33b06",
+    "storage_bucket": "fcm-example-33b06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858976309361:android:ec133129bd4ea4f79f8bd0",
+        "android_client_info": {
+          "package_name": "com.cookandroid.pushtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858976309361-ff6n4i2ufmoeevn7vt0foeuiijamrnqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVjvSur4xajUkIdVmp8fCVRJlVwZDDLEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858976309361-ff6n4i2ufmoeevn7vt0foeuiijamrnqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:858976309361:android:550e225532c709019f8bd0",
+        "android_client_info": {
+          "package_name": "com.cookandroid.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "858976309361-ff6n4i2ufmoeevn7vt0foeuiijamrnqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVjvSur4xajUkIdVmp8fCVRJlVwZDDLEc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "858976309361-ff6n4i2ufmoeevn7vt0foeuiijamrnqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
